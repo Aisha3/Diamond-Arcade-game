@@ -14,7 +14,7 @@ Diamond Arcade Game for Udacity Front-End Web Developer Nanodegree
 * Avoid touching the enemies while trying to reach the water.
 * You have three lives, if you touch an enemy you lose a life if you have no lives left **game is over**.
 
-##### I have learned more new features of JavaScript and coding from:
+##### I have learned more new features of css, JavaScript and coding from:
 * Stack overflow.com
 * w3schools.com
 * MDN Web docs.
