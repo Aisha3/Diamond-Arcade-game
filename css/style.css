@@ -1,0 +1,178 @@
+body {
+    text-align: center;
+    background-image: url("../images/backGround.png");
+}
+
+canvas {
+    position: absolute;
+	/* canvas is placed 0 pixels to the right of the left edge of the containing positioned element div(game-div) */
+    left: 0;
+    right: 0;
+    top: 60px;
+    margin: 0 auto;
+}
+
+.game-title {
+    margin-bottom: 0px;
+    margin-top: 48px;
+    font-size: 37px;
+    text-shadow: 3px 2px red;
+    font-family: 'Frijole', cursive;
+}
+
+.start-div {
+    position: absolute;
+    width: 505px;
+    height: 560px;
+    top: 90px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.85);
+    border-radius: 5px;
+    z-index: 2;
+}
+
+.start-btn {
+    margin-top: 23%;
+    border: none;
+    background: none;
+}
+
+.start-title {
+    font-size: 50px;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    text-shadow: 3px 2px yellow;
+    font-family: 'Frijole', cursive;
+}
+
+.img-btn:focus {
+    opacity: 1;
+}
+
+.img-btn {
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    margin: 4%;
+    margin-top: 15%;
+    border: none;
+    background: none;
+}
+
+.start-girl {
+    float: left;
+    margin-left: 25%;
+}
+
+.start-boy {
+    float: right;
+    margin-right: 25%;
+}
+
+.red-color {
+    color: red;
+}
+
+.yellow-color {
+    color: yellow;
+}
+
+.white-color {
+    color: white;
+}
+
+.display-no {
+    display: none;
+}
+
+.red-shadow {
+    text-shadow: 3px 2px red;
+}
+
+.radius5 {
+    border-radius: 5px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.border3 {
+    border: 4px red dashed;
+}
+
+.love-font {
+    font-family: 'Love Ya Like A Sister', cursive;
+}
+
+.instractions-div {
+    margin: 0 8%;
+    padding: 0 2%;
+}
+
+.green-title {
+    color: rgb(109, 218, 71);
+    margin-top: 2%;
+    margin-bottom: 0;
+}
+
+.whiteP {
+    margin: 1% auto;
+}
+
+.unselectable {
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.gameOver-div {
+    margin: 7% 34% 0 34%;
+    padding: 0 2%;
+    font-size: 30px;
+    background: black;
+    width: 26%;
+    -webkit-box-shadow: 0 0 10px #fff;
+    box-shadow: 5 5 10px #fff;
+    z-index: 2;
+    position: absolute;
+}
+
+.gameWin-title {
+    font-size: 80%;
+}
+
+.gameWin-p {
+    font-size: 20px;
+}
+
+.gameOver-title {
+    margin-bottom: 0px;
+}
+
+.try-btn {
+    color: black;
+    font-size: 13px;
+    margin-bottom: 35px;
+    background: rgb(109, 218, 71);
+    padding: 10px 7px;
+    cursor: pointer;
+}
+
+button:hover {
+    -ms-transform: scale(1.2, 1, 2);
+	/* IE 9 */
+    -webkit-transform: scale(1.2, 1, 2);
+	/* Safari */
+    transform: scale(1.2, 1.2);
+	/* Standard syntax */
+    color: red;
+}
+
+button:focus {
+    outline: none;
+    color: white;
+}
