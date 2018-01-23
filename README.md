@@ -2,7 +2,7 @@
 Diamond Arcade Game for Udacity Front-End Web Developer Nanodegree
 
 #### Usage notes
-* Download all the files and open the file index.html in your browser, you can play directly press here[ play ](https://cdn.rawgit.com/Aisha3/Diamond-Arcade-game/master/index.html)
+* Download all the files and open the file index.html in your browser, you can play directly press here[ play ](https://aisha3.github.io/Diamond-Arcade-game/)
 * You need an active internet connection.
 * Use the arrow keys to move the character.
 * You can select preferable character (boy or girl), and the girl character selected by default.
