@@ -134,7 +134,7 @@ Player.prototype.effect = function() {
 //heart lives class
 var Heart = function(x, y) {
     this.sprite = new Image();
-    this.sprite.src = "images/heart.png";
+    this.sprite.src = "images/Heart.png";
     this.x = x;
     this.y = y;
 };
